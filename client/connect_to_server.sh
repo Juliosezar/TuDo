@@ -32,7 +32,7 @@ echo "tudo sync setup"
 echo "==============="
 echo
 
-read -r -p "Server address (e.g. 127.0.0.1:8000 or tudo.jsezar.ir): " RAW_INPUT
+read -r -p "Server address (e.g. 127.0.0.1:8000 or your-domain.com): " RAW_INPUT
 if [ -z "$RAW_INPUT" ]; then
     echo "Error: server address is required." >&2
     exit 1
