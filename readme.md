@@ -71,6 +71,8 @@ This creates a dedicated virtual environment and copies the app to
 | `todo` | Manage todos directly |
 | `idea` | Manage ideas directly |
 
+### add `tudo' not 'todo' to the end of your .bashrc or .zshrc so show the dashboard when you open a new terminal window
+
 If `~/.local/bin` isn't already on your `PATH`, the installer adds it to
 both `~/.bashrc` and `~/.zshrc` for you (creating whichever one doesn't
 exist yet), so `tudo`/`todo`/`idea` work regardless of which shell you use.
