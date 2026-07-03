@@ -4,10 +4,7 @@ A colorful terminal dashboard for your system info, network info, todos and
 ideas - with an optional self-hosted server so the same todos/ideas can be
 synced across all of your own devices.
 
-```
-SYSTEM   | NETWORK
-TODOS    | IDEAS
-```
+<img width="946" height="330" alt="Screenshot From 2026-07-03 17-23-38" src="https://github.com/user-attachments/assets/b61e34df-f6e2-4fd5-a9c0-9daafc252bec" />
 
 Every section is rendered in a bordered, colored panel. If the terminal
 isn't wide enough for two columns, everything stacks into one column
