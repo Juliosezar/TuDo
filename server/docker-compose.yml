@@ -1,0 +1,19 @@
+services:
+  tudo-server:
+    build: .
+    container_name: tudo-server
+    restart: unless-stopped
+    environment:
+      TUDO_API_KEY: ${TUDO_API_KEY:-}
+      TUDO_DB_PATH: /data/tudo.db
+    ports:
+      # Bound to localhost only: this container never talks to the public
+      # internet directly. If you want to expose it (e.g. on a VPS), put
+      # your own nginx/caddy reverse proxy (with TLS) in front of
+      # 127.0.0.1:${TUDO_PORT}.
+      - "127.0.0.1:${TUDO_PORT:-8000}:8000"
+    volumes:
+      - tudo_data:/data
+
+volumes:
+  tudo_data:
