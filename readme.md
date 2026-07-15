@@ -291,7 +291,7 @@ cd client
 `connect_to_server.sh` asks for:
 
 - **Server address** - e.g. `127.0.0.1:8000` for a local server, or
-  `tudo.jsezar.ir` for one behind your own reverse proxy. `/api/` is
+  `your.domain.com` for one behind your own reverse proxy. `/api/` is
   appended automatically to build the full API URL.
 - **API key** (optional) - whatever you set as `TUDO_API_KEY` on the
   server.
